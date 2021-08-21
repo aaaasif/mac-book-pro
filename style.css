@@ -1,0 +1,9 @@
+.top-border{
+    border-top: 2px solid black;
+}
+.total-ammount{
+    border-top: 1px solid gray;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+}

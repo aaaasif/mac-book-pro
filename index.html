@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container mx-auto mt-lg-5">
+        <div class="grid-section row ">
+            <div class="col-lg-6 col-md-12">
+                <img class="img-fluid w-75 ms-lg-5" src="images/mac.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="top-text">
+                    <h3 class="fs-2">Coustomize your Blue 24.inch iMac with apple M1 chip.</h3>
+                   <p>Apple M1 chip with 8-core Cpu with 4 parfomance core and 4 efficiency cores, 7-core CPU, and 16-core Neural Engine 8GB unified memory 256 GB ssd storage Two Thunderbolt/ USB 4 ports Magic Mouse Magic Keyboard-Us English</p>
+                </div>
+                <div class="button pt-3">
+                    <h1 class="pt-3">Memory</h1>
+                    <button type="button" class="btn btn-outline-secondary" id="ram8GB">8 GB unified memory</button>
+                    <button type="button" class="btn btn-outline-secondary" id="ram16GB">16 GB unified memory</button>
+                </div>
+                <div class="storage selection pt-3">
+                    <h3 class="pt-3">Storage</h3>
+                    <button type="button" id="ssd256GB" class="btn btn-outline-secondary">256GB SSD storage</button>
+                    <button type="button" id="ssd512GB" class="btn btn-outline-secondary">512GB SSD storage</button>
+                    <button type="button" id="ssd1TB" class="btn btn-outline-secondary">1TB SSD storage</button>
+                </div>
+                <div class="delivary-option pt-3 ">
+                    <h3 class="pt-3">Choose Your delivery option</h3>
+                    <button id="free-delivery" type="button" class="btn btn-outline-secondary">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button id= "paid-delivery" type="button" class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge $20</button>
+                </div>
+                <table class="table w-50 ">
+                      <tr>          
+                        <td class="fw-bold">Bese Price</td>
+                        <td>$<span id="memory-cost">1299</span></td>
+                      </tr>
+                      <tr>
+                        <td class="fw-bold">Extra Memory Cost</td>
+                        <td>$<span id="storage-cost">0</span></td>
+                      </tr>
+                      <tr>
+                        <td class="fw-bold">Extra Storage Cost</td>
+                        <td>$0</td>
+                      </tr>
+                      <tr>
+                        <td class="fw-bold">Delivery charge</td>
+                        <td>$<span id="dalivery-cost">0</span></td>
+                      </tr>
+                      <tr>
+                        <td id="total-price" class="fw-bold top-border">Total Price</td>
+                        <td class="top-border">$1299</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="input-group sm w-50">
+                    <input class="form-control" type="text">
+                    <button class="btn btn-danger" type="button" id="button-addon2">Button</button>
+                  </div>
+            </div>
+            
+        </div>     
+         <h1 class="total-ammount">Total:$1299 </h1>
+    </div>
+    <script src="js/mac-price.js"></script>
 </body>
 </html>
