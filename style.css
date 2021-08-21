@@ -7,3 +7,17 @@
     margin-top: 20px;
     text-align: center;
 }
+
+/* -------------- */
+function totalCalc(){
+    document.getElementById('Best-Price').innerText = parseFloat(bestPrice);
+    document.getElementById('Extra-Memory').innerText = parseInt(extraMemory);
+    document.getElementById('Extra-Storage').innerText = parseInt(extraStorage);
+    document.getElementById('Delivery-Charge').innerText = parseInt(deliveryCharge);
+    document.getElementById('total-price').innerText = parseInt(totalPrice);
+    const totalPrice = bestPrice + extraMemory + extraStorage + deliveryCharge;
+    
+
+}
+Imdadul (B-4)
+Vul
