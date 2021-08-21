@@ -1,0 +1,28 @@
+.mac-components:hover {
+    color: white;
+    background-color: rgb(110, 110, 110);
+}
+#mac-top-border {
+    border-top: 2px solid black;
+}
+/* promo code btn */
+#promocode-apply-btn{
+    background-color: crimson;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 10px;
+}
+#promocode-apply-btn:hover {
+    background-color: rgb(160, 12, 41);
+}
+.mac-bottom-border{
+    border-bottom: 1px solid black;
+}
+/* bonus total */
+#after-discount-total {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
