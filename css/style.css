@@ -1,13 +1,9 @@
-.mac-components:hover {
-    color: white;
-    background-color: rgb(110, 110, 110);
-}
 #mac-top-border {
     border-top: 2px solid black;
 }
 /* promo code btn */
 #promocode-apply-btn{
-    background-color: crimson;
+    background-color: rgba(14, 1, 4, 0.534);
     font-weight: 500;
     padding-top: 6px;
     padding-bottom: 6px;
